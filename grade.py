@@ -27,36 +27,36 @@ elif Percentage == "W":
 elif Percentage == "D":
     print("Description: Dropped")
 else:
-    percentage = int(Percentage)
-    if percentage >= 97 and percentage <= 100:
+    percentage = float(Percentage)
+    if percentage >= 96.5 and percentage <= 100:
         print("Grade/Mark: 1.0")
         print("Description: Excellent")
-    elif percentage >= 94 and percentage <= 96:
+    elif percentage >= 93.5 and percentage <= 96.4:
         print("Grade/Mark: 1.25")
         print("Description: Excellent")
-    elif percentage >= 91 and percentage <= 93:
+    elif percentage >= 90.5 and percentage <= 93.4:
         print("Grade/Mark: 1.50")
         print("Description: Very Good")
-    elif percentage >= 88 and percentage <= 90:
+    elif percentage >= 87.5 and percentage <= 90.4:
         print("Grade/Mark: 1.75")
         print("Description: Very Good")
-    elif percentage >= 85 and percentage <= 87:
+    elif percentage >= 84.5 and percentage <= 87.4:
         print("Grade/Mark: 2.0")
         print("Description: Good")
-    elif percentage >= 82 and percentage <= 84:
+    elif percentage >= 81.5 and percentage <= 84.4:
         print("Grade/Mark: 2.25")
         print("Description: Good")
-    elif percentage >= 79 and percentage <= 81:
+    elif percentage >= 78.5 and percentage <= 81.4:
         print("Grade/Mark: 2.50")
         print("Description: Satisfactory")
-    elif percentage >= 76 and percentage <= 78:
+    elif percentage >= 75.5 and percentage <= 78.4:
         print("Grade/Mark: 2.75")
         print("Description: Satisfactory")
-    elif percentage >= 75 and percentage <= 75:
+    elif percentage >= 74.5 and percentage <= 75.4:
         print("Grade/Mark: 3.00")
         print("Description: Passing")
-    elif percentage >= 65 and percentage <= 74:
+    elif percentage >= 64.5 and percentage <= 74.4:
         print("Grade/Mark: 5.00")
         print("Description: Failure")
-    elif percentage <= 64.9:
+    elif percentage <= 64.4:
         pass
